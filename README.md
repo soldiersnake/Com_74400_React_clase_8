@@ -71,3 +71,35 @@ VITE_messagingSenderId= tu-key
 VITE_appId= tu-key
 VITE_measurementId= tu-key
 ```
+
+## Estructura del Proyecto
+
+```sh
+├── src/
+    ├── components/   # Componentes reutilizables
+    ├── context/      # Proveedores de contexto (Cart, User)
+    ├── hooks/        # Custom hooks (e.g., useFetch)
+    ├── pages/        # Vistas principales
+    ├── services/     # Constantes y servicios (Firebase config)
+```
+
+## Configuración de Firebase
+1. Accede a Firebase Console.
+2. Crea un proyecto y habilita Firestore Database.
+3. Configura las reglas de Firestore para el entorno de desarrollo:
+
+```sh
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      allow read, write: if true;
+    }
+  }
+}
+```
+
+### URL del Deploy en Producción
+El proyecto está desplegado en Netlify y Versel, puedes acceder a la aplicación en los siguientes URL:
+- **[URL Netlify](https://tiendamichis.netlify.app/)**
+- **[URL Versel](https://clase-8-react-deploy-5u44fy6zs-soldiersnakes-projects.vercel.app/)**
