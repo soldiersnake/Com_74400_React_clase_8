@@ -33,3 +33,41 @@
 - Estilos: CSS puro y Flexbox
 - Gestión de estado: React Context API
 - Variables de entorno: .env con soporte para Vite
+
+## Instalacion
+
+Instrucciones paso a paso para clonar y ejecutar la aplicación.
+
+```shellscript
+# Clonar el repositorio
+git clone https://github.com/tu-repositorio/michis-ecommerce.git
+
+# Entrar al directorio del proyecto
+cd michis-ecommerce
+
+# Instalar dependencias
+npm install
+
+# Crear un archivo .env con las variables de entorno necesarias
+VITE_API_URL=https://tu-api-url.com
+VITE_API_KEY=tu-api-key
+
+# Iniciar el servidor de desarrollo
+npm run dev
+```
+
+La aplicación estará disponible en http://localhost:5173/
+
+## Configura la base de datos
+
+Crea un archivo .env en la raíz del proyecto y define la variable de entorno para conectar tu base de datos en **Firebase**:
+
+```sh
+VITE_apiKey= tu-key
+VITE_authDomain= tu-key
+VITE_projectId= tu-key
+VITE_storageBucket= tu-key
+VITE_messagingSenderId= tu-key
+VITE_appId= tu-key
+VITE_measurementId= tu-key
+```
