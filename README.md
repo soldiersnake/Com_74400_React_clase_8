@@ -12,3 +12,16 @@
 4. **CRUD de Productos**: Actualización y eliminación de productos.
 5. **Variables de entorno**: Uso de variables de entorno para configuraciones sensibles.
 6. **Diseño responsivo**: Diseño responsivo con CSS puro.
+
+### Lista de funcionalidades en otro tipo de aspecto
+
+## Funcionalidades principales
+
+```sh
+| Característica        | Descripción                          | Estado   |
+|-----------------------|--------------------------------------|----------|
+| Autenticación         | Registro e inicio de sesión         | ✅ Listo  |
+| Carrito de compras    | Añadir y eliminar productos          | ✅ Listo  |
+| Integración con Firestore | CRUD en tiempo real                | ✅ Listo  |
+| Filtros de búsqueda   | Buscar por categoría o precio        | 🔄 En progreso |
+```
