@@ -25,3 +25,11 @@
 | Integración con Firestore | CRUD en tiempo real                | ✅ Listo  |
 | Filtros de búsqueda   | Buscar por categoría o precio        | 🔄 En progreso |
 ```
+
+## Tecnologias Utilizadas
+
+- Frontend: React + Vite
+- Base de datos: Firebase Firestore
+- Estilos: CSS puro y Flexbox
+- Gestión de estado: React Context API
+- Variables de entorno: .env con soporte para Vite
