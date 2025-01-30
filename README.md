@@ -119,3 +119,46 @@ El proyecto está desplegado en Netlify y Versel, puedes acceder a la aplicació
 <div align="center">
   <img src="./src/img/categoria3.jpg" alt="Página principal" width="600">
 </div>
+
+### Aprendizajes y Retos
+- Comparte lo que aprendiste al desarrollar esta app y los retos que enfrentaste.
+- Ejemplo:
+    Aprendí a manejar Firestore para almacenar y consultar datos en tiempo real. Además, mejorar la gestión de estado con Context API fue un gran desafío, pero valió la pena.
+
+## Contribución
+
+¡Contribuciones son bienvenidas! Por favor, sigue los siguientes pasos:
+
+1. Haz un fork del repositorio.
+2. Crea una nueva rama (`git checkout -b feature/nueva-funcionalidad`).
+3. Realiza los cambios y haz commit (`git commit -m 'Añadida nueva funcionalidad'`).
+4. Haz push a tu rama (`git push origin feature/nueva-funcionalidad`).
+5. Crea un Pull Request.
+
+## Roadmap (funcionalidades futuras)
+
+- [x] Autenticación con Firebase
+- [x] CRUD en Firestore
+- [ ] Implementar filtros avanzados
+- [ ] Soporte para múltiples idiomas
+- [ ] Diseño responsivo mejorado
+
+
+### Créditos
+- A todos los alumnos presentes gracias por acompañarme en esta primera comision
+- Especialmente tambien al Tutor Nacho por el aguante y el acompañamiento
+
+### Licencia
+- Menciona si el código está bajo una licencia (ej., MIT, GPL, etc.). (Lo hizo Mariano dictando clases para Coder 😅)
+
+## Comentarios Finales
+
+#### Nuevamente Muchas gracias por todo Coder's 😁
+
+<div align="center">
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExODhxdTNyMXhncHZ4djEwZHUwMW5kdmY1OXk0Nng2MTFjNGJxa3pmbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pNn4hlkovWAHfpLRRD/giphy.gif" alt="Vegeta Crying" width="600">
+</div>
+
+<div align="center">
+  <img src="https://media.giphy.com/media/xT9IgG50Fb7Mi0prBC/giphy.gif" alt="Adios" width="600">
+</div>
