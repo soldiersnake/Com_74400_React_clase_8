@@ -11,12 +11,7 @@ import MainPage from "./page/MainPage";
 import { Navegacion } from "./page/Navegacion";
 import SobreNosotros from "./page/SobreNosotros";
 
-function App() {
-  const { user } = useUser();
-  console.log("user:", user);
-  const testEnv = import.meta.env.VITE_test;
-  console.log('Variable de entorno :', testEnv);
-  
+function App() {  
 
   return (
     <>
