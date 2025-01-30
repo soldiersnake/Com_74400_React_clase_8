@@ -109,3 +109,13 @@ El proyecto está desplegado en Netlify y Versel, puedes acceder a la aplicació
 - ### Desde la app:
 
 ![Página principal de la app](./src/img/producto5.jpg "Imagen desde la app")
+
+- ### Url Externa:
+
+![Página principal de la app](https://m.media-amazon.com/images/I/71N9mC+WoeL._AC_UL320_.jpg "Imagen desde url externa")
+
+- ### Con HTML / CSS
+
+<div align="center">
+  <img src="./src/img/categoria3.jpg" alt="Página principal" width="600">
+</div>
