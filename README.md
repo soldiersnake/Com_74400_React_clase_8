@@ -103,3 +103,9 @@ service cloud.firestore {
 El proyecto está desplegado en Netlify y Versel, puedes acceder a la aplicación en los siguientes URL:
 - **[URL Netlify](https://tiendamichis.netlify.app/)**
 - **[URL Versel](https://clase-8-react-deploy-5u44fy6zs-soldiersnakes-projects.vercel.app/)**
+
+### Capturas de la aplicacion
+
+- ### Desde la app:
+
+![Página principal de la app](./src/img/producto5.jpg "Imagen desde la app")
